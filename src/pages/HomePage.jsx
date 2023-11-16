@@ -50,7 +50,7 @@ const HomePage = () => {
               <p className='text-center'>
                 Kelas <span>XI PPLG 2</span> yang memiliki sebutan <span>PPLG TWORU</span>,<br />
                 arti dari TWORU yaitu TWO untuk urutan kelas yaitu PPLG 2,<br />
-                dan RU yaitu Rich dan Unique
+                dan RU yaitu Rich and Unique
               </p>
             </Col>
           </Row>
