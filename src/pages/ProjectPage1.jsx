@@ -1,4 +1,4 @@
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import { Items } from '../data/index'
 
 const ProjectPage1 = () => {
