@@ -1,6 +1,6 @@
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import { navLinks } from '../data/index'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import CodeImage from '../image/pplg.svg';
 

@@ -106,7 +106,10 @@ export const ProjectItems = [
       name: 'Pembuat : Farid Firdaus',
       description: 'Deskripsi Website',
       category: 'Semester 1',
-  },
+  }
+];
+
+export const Items = [
   {
       id: 2,
       image: '/src/image/web.png',

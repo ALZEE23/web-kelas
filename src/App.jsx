@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import ProjectPage from './pages/ProjectPage'
+import ProjectPage1 from './pages/ProjectPage1'
 
 // Header dan Footer
 import NavbarComponent from './components/NavbarComponent'
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' Component={HomePage} />
         <Route path='/project' Component={ProjectPage} />
+        <Route path='project1' Component={ProjectPage1}/>
       </Routes>
       
       <FooterComponent />
