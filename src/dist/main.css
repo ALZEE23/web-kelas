@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Kanit:wght@700&family=Young+Serif&display=swap');
 
+<<<<<<< HEAD
 * {
+=======
+* { 
+>>>>>>> 2df9fb0 (Menambahkan Page Project berisi sertifikat murid)
     font-family: 'Kanit', sans-serif;
     color: rgb(0, 0, 0);
 }
@@ -739,15 +743,26 @@ p {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
     transition: transform 0.3s ease;
     min-height: 400px;
     /* Set minimum tinggi kotak */
     display: flex;
+=======
+    transition: transform 0.8s ease;
+    min-height: 400px;
+    /* Set minimum tinggi kotak */
+    display: flexbox;
+>>>>>>> 2df9fb0 (Menambahkan Page Project berisi sertifikat murid)
     flex-direction: column;
 }
 
 .ProjectPage .card:hover {
     transform: scale(1.05);
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 2df9fb0 (Menambahkan Page Project berisi sertifikat murid)
 }
 
 .ProjectPage .card img {
@@ -785,7 +800,13 @@ p {
 }
 
 .ProjectPage .card-body button {
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 300px;
+    text-align: center;
+
+>>>>>>> 2df9fb0 (Menambahkan Page Project berisi sertifikat murid)
 }
 
 .ProjectPage .card-text {
@@ -799,6 +820,15 @@ p {
 .ProjectPage .semester {
     border-bottom: solid 2px var(--text-color);
 }
+<<<<<<< HEAD
+=======
+ .pagina{
+    justify-content: center;
+}
+
+
+
+>>>>>>> 2df9fb0 (Menambahkan Page Project berisi sertifikat murid)
 
 /* kontak */
 .contact {

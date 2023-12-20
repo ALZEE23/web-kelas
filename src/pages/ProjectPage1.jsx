@@ -39,6 +39,10 @@ const ProjectPage1 = () => {
                             </div>
                         </Col>
                     </Row>
+<<<<<<< HEAD
+=======
+                    
+>>>>>>> 2df9fb0 (Menambahkan Page Project berisi sertifikat murid)
                     <>
                         {Object.keys(groupedImages).map((category, index) => (
                             <div key={index}>
