@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-import { Container, Row, Col } from 'react-bootstrap'
-import { ProjectItems } from '../data/index'
-
-const ProjectPage = () => {
-    // const ProjectItems = [
-    //     { id: 1, image: '/src/image/web.png', caption: 'Website penghasil cuan (Tuyul)' },
-    //     { id: 2, image: '/src/image/web.png', caption: 'Judul website' },
-    //     { id: 3, image: '/src/image/web.png', caption: 'Judul website' },
-    //     { id: 4, image: '/src/image/web.png', caption: 'Judul website' },
-    //     { id: 5, image: '/src/image/web.png', caption: 'Judul website' },
-    //     { id: 6, image: '/src/image/web.png', caption: 'Judul website' },
-    //     { id: 7, image: '/src/image/web.png', caption: 'Judul website' },
-    //     { id: 8, image: '/src/image/web.png', caption: 'Judul website' },
-    //     { id: 9, image: '/src/image/web.png', caption: 'Judul website' },
-    //     // Tambahkan item galeri sesuai kebutuhan Anda
-    // ];
-    // Group images by category
-=======
 import React, { useState } from 'react';
 import { Container, Row, Col, Button, Modal } from 'react-bootstrap';
 import { ProjectItems } from '../data/index';
@@ -56,7 +37,6 @@ const ProjectPage = () => {
         });
     };
 
->>>>>>> 2df9fb0 (Menambahkan Page Project berisi sertifikat murid)
     const groupedImages = {};
     ProjectItems.forEach((item) => {
         if (!groupedImages[item.category]) {
@@ -64,8 +44,6 @@ const ProjectPage = () => {
         }
         groupedImages[item.category].push(item);
     });
-<<<<<<< HEAD
-=======
 
     const totalPages = Math.ceil(
         Object.keys(groupedImages).reduce(
@@ -88,14 +66,14 @@ const ProjectPage = () => {
                 <div className="mySlides">
                     <img src={selectedProject.images[modalSlideIndex - 1]} alt={`Gambar ${selectedProject.caption}`} style={{ width: '100%' }} />
                     <div className="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle">
-                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                        {/* Slideshow navigation controls */}
-                        <button className="btn btn-primary" onClick={() => handleModalSlideChange(-1)}>
-                            Previous
-                        </button>
-                        <button className="btn btn-primary" onClick={() => handleModalSlideChange(1)}>
-                            Next
-                        </button>
+                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                            {/* Slideshow navigation controls */}
+                            <button className="btn btn-primary" onClick={() => handleModalSlideChange(-1)}>
+                                Previous
+                            </button>
+                            <button className="btn btn-primary" onClick={() => handleModalSlideChange(1)}>
+                                Next
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -103,50 +81,18 @@ const ProjectPage = () => {
         );
     };
 
->>>>>>> 2df9fb0 (Menambahkan Page Project berisi sertifikat murid)
     return (
         <div className="ProjectPage">
             <header className="w-100 min-vh-100 d-flex align-items-center">
                 <Container>
                     <Row className='judul'>
                         <Col>
-<<<<<<< HEAD
-                            <h1 className='text-center fw-bold'>ALL Project <span className='turu'>XI PPLG 2</span></h1>
-=======
                             <h1 className='text-center fw-bold'>ALL Project <span className='turu'>PPLG 2 ANGKATAN 15</span></h1>
->>>>>>> 2df9fb0 (Menambahkan Page Project berisi sertifikat murid)
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             <div className="cari">
-<<<<<<< HEAD
-                                <input type="text" placeholder="Cari judul project, deskripsi, nama pembuat...." />
-                                <button className="btn btn-success rounded-end rounded-0">Search</button>
-                            </div>
-                        </Col>
-                    </Row>
-                    <>
-                        {Object.keys(groupedImages).map((category, index) => (
-                            <div key={index}>
-                                <h2 className="semester text-center pt-4">{category}</h2>
-                                <Row className='pt-4'>
-                                    {groupedImages[category].map((data) => (
-                                        <Col key={data.id} md={4} className="mb-4">
-                                            <div className="card-container">
-                                                <div className="card">
-                                                    <img src={data.image} alt={`Gambar ${data.image}`} />
-                                                    <div className="card-body">
-                                                        <div className="card-text fw-bold">{data.caption}</div>
-                                                        <h5>{data.name}</h5>
-                                                        <p>{data.description}</p>
-                                                        <button className="btn btn-primary">Lihat</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </Col>
-                                    ))}
-=======
                                 <input type="text" placeholder="Cari Nama Sertifikat" value={searchTerm} onChange={handleSearchChange} />
                                 <button className="btn btn-success rounded-end rounded-0">Search</button>
                             </div>
@@ -177,21 +123,11 @@ const ProjectPage = () => {
                                                 </div>
                                             </Col>
                                         ))}
->>>>>>> 2df9fb0 (Menambahkan Page Project berisi sertifikat murid)
                                 </Row>
                             </div>
                         ))}
                     </>
 
-<<<<<<< HEAD
-                </Container>
-            </header>
-        </div>
-    )
-}
-
-export default ProjectPage
-=======
                     {/* Pagination */}
                     <div className='pagina'>
                         <Row className="justify-content-center">
@@ -249,4 +185,3 @@ export default ProjectPage
 };
 
 export default ProjectPage;
->>>>>>> 2df9fb0 (Menambahkan Page Project berisi sertifikat murid)
