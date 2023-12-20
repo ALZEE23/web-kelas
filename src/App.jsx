@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path='/' Component={HomePage} />
         <Route path='/project' Component={ProjectPage} />
-        <Route path='project1' Component={ProjectPage1}/>
+        <Route path='/project1' Component={ProjectPage1}/>
       </Routes>
       
       <FooterComponent />

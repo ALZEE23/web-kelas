@@ -29,6 +29,11 @@ export const navLinks = [
     path: "Article",
     text: "Article",
   },
+  {
+    id: 7,
+    path: "Project1",
+    text: "Project1",
+  }
 ];
 
 export const faq = [
