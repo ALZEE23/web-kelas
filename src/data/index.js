@@ -246,9 +246,21 @@ export const ProjectItems = [
         '/src/image/sertifikat/indri3.png',
        ],
   },
+  {
+      id: 12,
+      caption: 'Kartika Lidya Lestari',
+      name: 'Sertifikat',
+      description: 'Beberapa sertifikat yang di dapatkan ketika menyelesaikan Kelas Coding Online',
+      category: 'Semester 1',
+      images:[
+        '/src/image/sertifikat/kartika.png',
+        '/src/image/sertifikat/kartika2.png',
+        '/src/image/sertifikat/kartika3.png',
+       ],
+  },
 
   {
-    id: 12,
+    id: 13,
     caption: 'Marsha Nurhalimah',
     name: 'Sertifikat',
     description: 'Beberapa sertifikat yang di dapatkan ketika menyelesaikan Kelas Coding Online',
@@ -261,7 +273,7 @@ export const ProjectItems = [
   },
   
   {
-      id: 13,
+      id: 14,
       caption: 'Muhammad Hafidz Alaziz',
       name: 'Sertifikat',
       description: 'Beberapa sertifikat yang di dapatkan ketika menyelesaikan Kelas Coding Online',
@@ -273,7 +285,7 @@ export const ProjectItems = [
        ],
   },
   {
-      id: 14,
+      id: 15,
       caption: 'Muhammad Zulkarnaen',
       name: 'Sertifikat Game Jam',
       description: 'Beberapa sertifikat yang di dapatkan ketika menyelesaikan Kelas Coding Online',
@@ -286,7 +298,7 @@ export const ProjectItems = [
        ],
   },
   {
-      id: 15,
+      id: 16,
       caption: 'Nashira Salimah Firmansyah',
       name: 'Sertifikat CYBER ACADEMY',
       description: 'Beberapa sertifikat yang di dapatkan ketika menyelesaikan Kelas Coding Online',
@@ -299,7 +311,7 @@ export const ProjectItems = [
        ],
   },
   {
-      id: 16,
+      id: 17,
       caption: 'Nur Intan Silviani',
       name: 'Sertifikat',
       description: 'Beberapa sertifikat yang di dapatkan ketika menyelesaikan Kelas Coding Online',
@@ -311,7 +323,7 @@ export const ProjectItems = [
        ],
   },
   {
-      id: 17,
+      id: 18,
       caption: 'Raffa Fatirawan',
       name: 'Sertifikat',
       description: 'Beberapa sertifikat yang di dapatkan ketika menyelesaikan Kelas Coding Online',
@@ -322,7 +334,7 @@ export const ProjectItems = [
        ],
   },
   {
-      id: 18,
+      id: 19,
       caption: 'Rifana Ambar Wati',
       name: 'Sertifikat',
       description: 'Beberapa sertifikat yang di dapatkan ketika menyelesaikan Kelas Coding Online',
@@ -332,7 +344,7 @@ export const ProjectItems = [
        ],
   },
   {
-    id: 19,
+    id: 20,
     caption: 'Septiani Aulia',
     name: 'Sertifikat SMKCODING',
     description: 'Sertifikat ini di dapatkan ketika mengikuti kelas SMKCODING ',
@@ -342,7 +354,7 @@ export const ProjectItems = [
      ],
 },
   {
-      id: 20,
+      id: 21,
       caption: 'Sigit Eka Wahyudi',
       name: 'Sertifikat',
       description: 'Beberapa sertifikat yang di dapatkan ketika menyelesaikan Kelas Coding Online',
@@ -354,7 +366,7 @@ export const ProjectItems = [
        ],
   },
   {
-      id: 21,
+      id: 22,
       caption: 'Wildan Putra Dwi Alfaris',
       name: 'Sertifikat',
       description: 'Beberapa sertifikat yang di dapatkan ketika menyelesaikan Kelas Coding Online',
